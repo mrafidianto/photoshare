@@ -1,0 +1,19 @@
+[project]
+name = "photoshare"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "rafidianto", email = "rafidianto.code@gmail.com"},
+]
+dependencies = [
+    "django>=5.0.4",
+    "psycopg>=3.1.18",
+    "python-dotenv>=1.0.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "None"}
+
+
+[tool.pdm]
+distribution = false
